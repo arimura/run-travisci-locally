@@ -1,0 +1,10 @@
+language: android
+jobs:
+  include:
+    - stage: build
+      script:
+        - echo "build stage"
+    - stage: release
+      script:
+        - echo "release stage"
+
